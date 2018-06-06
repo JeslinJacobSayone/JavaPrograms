@@ -1,19 +1,29 @@
-# looping and branching
+## Final
+  - used to create constants , eg: final int a=10; ( the value of a cant be chaged in the program )
+  - final classes cant be inherited
+  - final methods cannot be overriden
+## Finally
+  - used with Exception handling
+  - will execute even if there is a exception or not
+  - Eg:   try{ <br />
+            ====== <br />
+        }catch(Exception e) <br />
+        { <br />
+          ======== <br />
+        } <br />
+        finally{ <br />
+        // this will defitely be executed eve if there is exception or not.. <br />
+        } <br />
+  
+  ## Finalize
+    - works like a destructor
+    - just before the garbage collector is invoked the finalize method will work..
 
-## Switch case
-![picture](https://www.tutorialspoint.com/java/images/switch_statement.jpg);
-
-### if else case and switch difference
-![picture](https://www.tutorialspoint.com/java/images/if_else_statement.jpg);
-
-### For Loop
-Here is the flow of control in a for loop −
-
-The initialization step is executed first, and only once. This step allows you to declare and initialize any loop control variables and this step ends with a semi colon (;).
-
-Next, the Boolean expression is evaluated. If it is true, the body of the loop is executed. If it is false, the body of the loop will not be executed and control jumps to the next statement past the for loop.
-
-After the body of the for loop gets executed, the control jumps back up to the update statement. This statement allows you to update any loop control variables. This statement can be left blank with a semicolon at the end.
-
-The Boolean expression is now evaluated again. If it is true, the loop executes and the process repeats (body of loop, then update step, then Boolean expression). After the Boolean expression is false, the for loop terminates.
-![Screenshot](https://www.tutorialspoint.com/java/images/java_for_loop.jpg);
+## String , stringbuffer and stringbuilder
+    - string is immutable
+    - buffer and builder are mutable
+    - can append to the same string using string buffer and builder , but using string it will
+      return a new string. 
+    - buffer operations are thread safe
+    - used when multiple thread work on same string
+    - low performance because syncronization is involved
