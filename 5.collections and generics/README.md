@@ -1,7 +1,7 @@
 ## Collections and Generics
 
-  ArrayList --------------------> List------------------>Collections
-                  (implements)            (extends)
+  ArrayList --------------------> List------------------>Collections <br />
+  --------------(implements)---------------(extends)-------------------------
                   
 we can use collections when we dont know the exact size of the array.
 in collection we can store any type of data.If we need only specific type of data then we have to use the generics.
